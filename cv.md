@@ -4,7 +4,7 @@
 Vyacheslav Bystrov
 
 ## Photo:
-![]('img/avatar.jpg')
+![](img/avatar.jpg)
 
 ___
 
