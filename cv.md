@@ -4,11 +4,11 @@ Name:
 Vyacheslav Bystrov
 
 Photo:
-[comment]: <> (insert photo here)
+![]('img/avatar.jpg')
 
 Contact Links:
-email: 
-telegram: 
+email: bvortexl3@mai1.ru
+telegram: @V0rtexl3
 github: https://github.com/BVortex13
 
 Bio:
@@ -35,8 +35,7 @@ Current Projects:
 * rsschool-cv
 
 Education Experience:
-Online courses (Sololearn, Geekbrains, HTML Academy, Stepik)
+Online courses (Sololearn, Geekbrains, HTML Academy, Stepik, Coursera)
 
 English Level:
 A2/B1
-
