@@ -9,9 +9,9 @@ Vyacheslav Bystrov
 ___
 
 ## Contact Links:
-email: _bvortexl3@mai1.ru_
-telegram: _@V0rtexl3_
-github: _https://github.com/BVortex13_
+email: _bvortexl3@mai1.ru_<br/>
+telegram: _@V0rtexl3_<br/>
+github: _https://github.com/BVortex13_<br/>
 
 ## Bio:
 I am currently working as a mechanical design engineer. I want to change the field of activity and develop some interesting projects. To do this, I need to learn some stack of technologies, which I am currently intensively doing.
