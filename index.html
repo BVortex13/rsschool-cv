@@ -1,14 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/avatar.jpg">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Test Page</h1>
-    <p>Hello world</p>
+  <div class="body-container">
+    <header>
+      <div class="header">
+        <h1>Curriculum Vitae</h1>
+        <p>Task: CV#3. CV. Cross-Check</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+
+        <div class="nav-container">
+          <nav>
+            <ul class="nav-list">
+              <li><a class="nav-list-item nav-about active" href="#about">About</a></li>
+              <li><a class="nav-list-item nav-contacts active" href="#contacts">Contacts</a></li>
+              <li><a class="nav-list-item nav-biography active" href="#biography">Biography</a></li>
+              <li><a class="nav-list-item nav-skills active" href="#skills">IT Skills</a></li>
+              <li><a class="nav-list-item nav-code active" href="#code">Code example</a></li>
+              <li><a class="nav-list-item nav-experience active" href="#experience">Experience</a></li>
+              <li><a class="nav-list-item nav-projects active" href="#projects">Projects</a></li>
+              <li><a class="nav-list-item nav-education active" href="#education">Education</a></li>
+              <li><a class="nav-list-item nav-english active" href="#english">English</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="cards-container">
+          <div class="card card-show card-about" id="about">
+            <img src="./assets/img/avatar.jpg" alt="avatar">
+            <h2>Vyacheslav Bystrov</h2>
+          </div>
+            
+          <div class="card card-show card-contacts" id="contacts">
+            <div class="card-contacts-container">
+              <div class="contact email">
+                <h2>Email</h2>
+                <a rel="email" href="e=mailto:bvOrtexl3@mail.ru">bv0rtexl3@mail.ru</a>
+              </div>
+
+              <div class="contact telegram">
+                <h2>Telegram</h2>
+                <a href="https://telegram.to/BV0rtexl3">BV0rtexl3</a>
+              </div>
+
+              <div class="contact github">
+                <h2>Github</h2>
+                <a href="https://github.com/BVortex13">BVortex13</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card card-show card-biography" id="biography">
+            <h2>Biography</h2>
+            <p>I am currently working as a mechanical design engineer. I want to change the field of activity and develop
+              some interesting projects. To do this, I need to learn some stack of technologies, which I am currently
+              intensively doing.</p>
+          </div>
+          
+          <div class="card card-show card-skills" id="skills">
+            <h2>IT Skills</h2>
+            <ol>
+              <li>Programming Languages
+                <ul>
+                  <li>C/C++</li>
+                  <li>Javascript</li>
+                  <li>Python</li>
+                </ul>
+              </li>
+              <li>Other
+                <ul>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+              </li>
+              <li>Development Tools
+                <ul>
+                  <li>Github</li>
+                  <li>IDE (<em>PyCharm, VS Code</em>)</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          
+          <div class="card card-show card-code" id="code">
+            <h2>Code Example (python)</h2>
+            <code>
+              def sum(a: <em>int</em> + b: <em>int</em>) -> <em>int</em>:<br>
+              &emsp;&emsp;&emsp;&emsp;return a + b;
+            </code>
+          </div>
+          
+          <div class="card card-show card-experience" id="experience">
+            <h2>Experience</h2>
+            <p>None</p>
+          </div>
+          
+          <div class="card card-show card-projects" id="projects">
+            <h2>Current Projects</h2>
+            <ol>
+              <li><a href="https://github.com/BVortex13/rsschool-cv">RSSchool-CV</a></li>
+              <li>Some Secret Project</li>
+            </ol>
+          </div>
+          
+          <div class="card card-show card-education" id="education">
+            <h2>Education</h2>
+            <p>Online courses</p>
+            <ul>
+              <li><em>Coursera</em></li>
+              <li><em>Geekbrains</em></li>
+              <li><em>HTML Academy</em></li>
+              <li><em>Sololearn</em></li>
+              <li><em>Stepik</em></li>
+              <li><em>Udemy</em></li>
+            </ul>
+          </div>
+          
+          <div class="card card-show card-english" id="english">
+            <h2>English Level</h2>
+            <p>A2</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-author">
+          <p>Made by Vortex13, 2022</p>
+          <a href="https://github.com/BVortex13">Github</a>
+        </div>
+
+        <div class="footer-rsschool">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo">
+          <p><a href="https://rs.school/js/">Course «JavaScript/Front-end» from RSSchool</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
 </body>
+
 </html>
