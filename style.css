@@ -49,6 +49,14 @@ header {
   font-size: 18px;
 }
 
+.card a, footer a {
+  color: yellow;
+}
+
+.card a:visited, footer a:visited {
+  color: greenyellow;
+}
+
 .card h2 {
   font-size: 18px;
   text-align: center;
